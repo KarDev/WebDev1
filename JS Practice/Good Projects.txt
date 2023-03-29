@@ -1,0 +1,45 @@
+Resize and Compress Images in HTML CSS & JavaScript
+https://www.youtube.com/watch?v=coj-l7IrwGU&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=6
+
+How to Make Chrome Extension in HTML CSS & JavaScript
+https://www.youtube.com/watch?v=coj-l7IrwGU&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=7
+
+Random Password Generator in HTML CSS & JavaScript 
+https://www.youtube.com/watch?v=fD8gm-DhjXk&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=13
+
+Build A Drawing or Paint App in HTML CSS & JavaScript
+https://www.youtube.com/watch?v=y84tBZo8GFo&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=15
+
+How to Save Text As File in HTML CSS & JavaScript
+https://www.youtube.com/watch?v=fAgLnRVHp_I&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=16
+
+Word Scramble Game in HTML CSS & JavaScript
+https://www.youtube.com/watch?v=4-s3g_fU7Vg&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=17
+
+Build An Image Editor in HTML CSS & JavaScript
+https://www.youtube.com/watch?v=YqUUvBpCtfA&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=19
+
+Typing Speed Test Game in HTML CSS & JavaScript
+https://www.youtube.com/watch?v=Hg80AjDNnJk&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=33
+
+Build A Random Quote Generator in HTML CSS & JavaScript
+https://www.youtube.com/watch?v=I0v9ZOY3_0k&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=35
+
+Detect AdBlock using HTML CSS & JavaScript
+https://www.youtube.com/watch?v=D_s8jFdJ-gc&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=51
+
+Quiz App
+https://www.youtube.com/watch?v=pQr4O1OITJo&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=57
+https://www.youtube.com/watch?v=pQr4O1OITJo&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=56
+
+Responsive Filterable Image Gallery using HTML CSS & JavaScript
+https://www.youtube.com/watch?v=OeMuUKedtPc&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=64
+
+Responsive Counter up Animation on Scroll using HTML CSS & jQuery
+https://www.youtube.com/watch?v=DdwNHFWVzO4&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=69
+
+Product Cards with Fly to Cart Effect using HTML CSS & jQuery
+https://www.youtube.com/watch?v=Ee-eHfG2GpQ&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=71
+
+Working Analog Clock using HTML CSS & Javascript | Neumorphsim UI Design
+https://www.youtube.com/watch?v=NVoIEEb0Hqg&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3&index=93
