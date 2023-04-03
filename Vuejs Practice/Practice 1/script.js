@@ -82,6 +82,8 @@ app.mount('#app')
 
 
 
+
+
 // let data = {
 //     title: "Vue 2 Reactivity"
 // }
