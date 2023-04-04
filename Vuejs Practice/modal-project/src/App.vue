@@ -12,12 +12,26 @@
         <a href="#">More Info</a>
       </template>
       <h1>{{ header }}</h1>
-      <p>{{ text }}</p>
+      <p>{{ text }}</p> 
     </Modal>
   </div>
+  <Teleport v-if="showModalTwo" to=".modals">
+    <Modal  @close="toggleModalTwo">
+      <template v-slot:links>
+        <a href="#">Sign Up now 2</a>
+        <a href="#">More Info 2</a>
+      </template>
+      <h1>{{ header }}</h1>
+      <p>{{ text }}</p> 
+    </Modal>
+  </Teleport>
   <p>Welcome to the world of Modals...</p>
-  <button @click="toggleModal">Show Modal</button>
-  <button @click.shift="toggleModal">Show Modal (shift)</button>
+  <button @click="toggleModal">Show Modal 1</button>
+  <button @click.shift="toggleModal">Show Modal 1(shift)</button>
+  <button @click.right="toggleModal">Show Modal 1(right)</button>
+  <br>
+  <button @click="toggleModalTwo">Show Modal 2</button>
+
 
 
 </template>
@@ -34,7 +48,8 @@ export default {
       title: `My First Vue App`,
       header: 'Sign up for the Giveaway',
       text: "Grab your favorite product for half price.",
-      showModal: false
+      showModal: false,
+      showModalTwo: false
     }
   },
   methods: {
@@ -45,13 +60,16 @@ export default {
     },
     toggleModal() {
       this.showModal = !this.showModal
+    },
+    toggleModalTwo() {
+      this.showModalTwo = !this.showModalTwo
     }
   }
 }
 </script>
 
 <style>
-#app {
+#app, .modals  {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -66,8 +84,8 @@ h1 {
   padding-bottom: 10px;
   color: rgb(80, 156, 156);
 }
-a {
+/* a {
   margin: 10px;
   padding: 10px;
-}
+} */
 </style>
