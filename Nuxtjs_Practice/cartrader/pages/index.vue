@@ -1,16 +1,12 @@
-<template>
-    <div>
-        <!-- <NavBar /> -->
-        <CarHero />
-    </div>
-</template>
-
 <script setup>
 useHead({
-    title: "Cartrader"
-})
+  title: "Cartrader",
+});
 </script>
 
-<style scoped>
-
-</style>
+<template>
+  <div>
+    <CarHero />
+  </div>
+</template>
+  

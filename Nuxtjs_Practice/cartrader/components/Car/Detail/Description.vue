@@ -1,15 +1,14 @@
-<template>
-    <div>
-        <div class="mt-5">
-            <p class="mb-10">{{ description }}</p>
-        </div>
-
-    </div>
-</template>
-
 <script setup>
-const props = defineProps(['description'])
-
+const props = defineProps({
+  description: String,
+});
 </script>
 
-<style scoped></style>
+
+<template>
+  <div class="mt-5">
+    <p class="mb-10">
+      {{ description }}
+    </p>
+  </div>
+</template>

@@ -1,12 +1,8 @@
-<template>
-    <div>
-        <CarCards />
-        
-    </div>
-</template>
-
 <script setup>
-
 </script>
 
-<style scoped></style>
+<template>
+  <div>
+    <CarCards />
+  </div>
+</template>

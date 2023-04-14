@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Range Rover Sport",
+      "price": "84,777",
+      "url": "/car2.jpg",
+      "seats": 5,
+      "miles": "14,666",
+      "features": ["Minor Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et laboriosam!"
+    },
+    {
+      "id": 2,
+      "name": "Rolls Royce Ghost",
+      "price": "455,000",
+      "url": "/car3.jpg",
+      "seats": 5,
+      "miles": "53,666",
+      "features": ["No Accidents", "Moderate KM", "Vehicle Detailed"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et laboriosam! Numquam ut rem, blanditiis est rerum tenetur maxime delectus"
+    },
+    {
+      "id": 4,
+      "name": "Porsche Taycan",
+      "price": "180,434",
+      "url": "/car4.jpg",
+      "seats": 5,
+      "miles": "0",
+      "features": ["No Accidents", "Low KM", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    }
+  ]
