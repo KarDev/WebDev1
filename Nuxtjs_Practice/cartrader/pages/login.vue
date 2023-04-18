@@ -13,19 +13,22 @@ definePageMeta({
     layout: "custom"
 })
 
-const supabase = useSupabaseClient() 
+const supabase = useSupabaseClient()
 
 const user = useSupabaseUser()
 
 const login = async () => {
-    const {error} = supabase.auth.signInWithOAuth({
-        provider:"google"
+    const { error } = await supabase.auth.signInWithOAuth({
+        provider: "google",
+        options: {
+            redirectTo: '/profile/listings'
+        }
     })
-    if(error) {
+    if (error) {
         console.log(error)
     }
-    
-    navigateTo('/')
+
+    // navigateTo('/')
 }
 
 </script>
