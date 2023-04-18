@@ -1,6 +1,6 @@
 <script setup>
-const { cars } = useCars();
-
+// const { cars } = useCars();
+const prop = defineProps(['cars'])
 const favorite = useLocalStorage("favorite", {});
 
 const handleFavorite = (id) => {
