@@ -1,6 +1,6 @@
 <template>
     <div class="mt-10">
-        {{ user }}
+        <!-- {{ user }} -->
         <h1 class="text-5xl font-bold mb-7">
             Log in
         </h1>
@@ -24,6 +24,8 @@ const login = async () => {
     if(error) {
         console.log(error)
     }
+    
+    navigateTo('/')
 }
 
 </script>
