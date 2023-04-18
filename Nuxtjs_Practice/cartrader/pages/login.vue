@@ -21,14 +21,14 @@ const login = async () => {
     const { error } = await supabase.auth.signInWithOAuth({
         provider: "google",
         options: {
-            redirectTo: '/profile/listings'
+            redirectTo: 'https://cartraderapp.netlify.app/login'
         }
     })
     if (error) {
         console.log(error)
     }
 
-    // navigateTo('/')
+    navigateTo('/profile/listings')
 }
 
 </script>

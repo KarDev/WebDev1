@@ -5,6 +5,7 @@ export default async (city, filters) => {
         }
     })
     if(error.value){
+        console.log(filters)
         throw createError({
             // ...error.value,
             statusCode: error.value.statusCode,

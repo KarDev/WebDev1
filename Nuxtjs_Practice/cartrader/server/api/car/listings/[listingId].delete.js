@@ -7,7 +7,7 @@ const prisma = new PrismaClient()
 export default defineEventHandler(async (event) => {
     const {listingId} = event.context.params;
 
-    return prisma.car.delete({
+    return await prisma.car.delete({
         where: {
             id: parseInt(listingId)
         }

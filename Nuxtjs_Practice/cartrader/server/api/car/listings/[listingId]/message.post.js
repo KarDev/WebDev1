@@ -28,7 +28,7 @@ export default defineEventHandler(async (event) => {
         })
     }
     const {message, email, phone, name} = body
-    return prisma.message.create({
+    return await prisma.message.create({
         data: {
             message,
             email,

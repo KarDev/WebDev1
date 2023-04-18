@@ -4,7 +4,7 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient()
 
 
-export default defineEventHandler((event) => {
+export default defineEventHandler(async (event) => {
     const {city} = event.context.params
     const {make, minPrice, maxPrice} = getQuery(event)
 
@@ -46,7 +46,7 @@ export default defineEventHandler((event) => {
         filters.price.gte = parseInt(maxPrice)
     }
 
-    return prisma.car.findMany({
+    return await prisma.car.findMany({
         where: filters
     })
 })
