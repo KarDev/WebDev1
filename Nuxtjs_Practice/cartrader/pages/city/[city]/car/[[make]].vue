@@ -12,7 +12,8 @@ watch(() => route.query, () => refresh)
 
 <template>
   <div>
-    <CarCards v-if="cars" :cars="cars"/>
+    <CarCards v-if="cars.length" :cars="cars"/>
     <h1 v-else class="text-red-600">No Cars Found With Filters</h1>
+    <!-- <p>{{ cars }}</p> -->
   </div>
 </template>
