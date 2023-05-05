@@ -20,14 +20,17 @@ const user = useSupabaseUser()
 const login = async () => {
     const { error } = await supabase.auth.signInWithOAuth({
         provider: "google",
-        options: {
-            redirectTo: 'https://cartraderapp.netlify.app/'
-            // redirectTo: `@/login/listings`
-        }
+        // options: {
+        //     redirectTo: 'https://cartraderapp.netlify.app/'
+        //     // redirecTo: `@/login/listings`
+        // }
+
     })
-    if (error) {
+    if (error) { 
         console.log(error)
     }
+
+     
 
     // navigateTo('/profile/listings')
 }

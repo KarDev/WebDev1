@@ -1,1 +1,16 @@
-[{"id":"123445","title":"A Book","imageUrl":"https://pngimg.com/d/book_PNG2111.png","description":"This is an awesome book!","price":"19"},{"id":"0.8178263218278932","title":"Pen","imageUrl":"https://cdn.shopify.com/s/files/1/0657/7923/7091/products/WP08110_1_1200x1200_crop_center.webp?v=1664270222","description":"Awesome long lasting pen which writes so smoothly that you eventually skip your thoughts while writing.","price":"3"}]
+[
+    {
+        "id": "0.8178263218278932",
+        "title": "Long Lasting Pen",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0657/7923/7091/products/WP08110_1_1200x1200_crop_center.webp?v=1664270222",
+        "description": "Awesome long lasting pen which writes extremely smoothly that you eventually skip your thoughts while writing.",
+        "price": "3"
+    },
+    {
+        "id": "0.057824035683633035",
+        "title": "Awesome Book",
+        "imageUrl": "https://pngimg.com/d/book_PNG2111.png",
+        "description": "This is an awesome book!\r\nYou might fall in love with it, but for that you've to actually read it. XD",
+        "price": "19.99"
+    }
+]
