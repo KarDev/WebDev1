@@ -3,11 +3,11 @@
         <div class="card-wrapper bg-gray-300 border rounded-md shadow-sm">
             <div class="p-5">
             <div class="flex justify-between">
-                <h5 class="text-xl/10">Project Title</h5>
+                <h5 class="text-xl/10">{{ board.title }} {{ board.id }}</h5>
                 <span>...</span>
             </div>
 
-            <p class="mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p class="mt-5">{{ board.description }}</p>
 
         </div>
         <div class="flex border-t">
@@ -23,3 +23,7 @@
     margin-bottom: 20px;
 }
 </style>
+<script setup>
+const props = defineProps(['board']);
+
+</script>

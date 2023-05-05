@@ -5,15 +5,15 @@
         <div class="flex-column justify-items-center m-auto p-auto bg-white rounded-md">
             <h1 class="text-2xl p-4">Create new board</h1>
             <div class="form-control">
-                <input class="w-4/5	p-2 m-4 mt-0 border rounded-md" type="text" placeholder="Enter your board name">
+                <input v-model="boName" class="w-4/5	p-2 m-4 mt-0 border rounded-md" type="text" placeholder="Enter your board name">
             </div>
             <div class="form-control">
-                <textarea class="w-4/5 p-2 m-4 mt-0 border rounded-md" rows="3"
+                <textarea v-model="bDesc" class="w-4/5 p-2 m-4 mt-0 border rounded-md" rows="3"
                 placeholder="Enter your board description"></textarea>
             </div>    
             <!-- <input class="w-4/5	px-2 m-2 mt-0 h-20 leading-3" type="text" placeholder="Enter your board description"> -->
             <div class="m-4">
-                <NuxtLink class=" bg-gray-400 p-2 border cursor-pointer text-white rounded-md">Save Board</NuxtLink>
+                <NuxtLink class=" bg-gray-400 p-2 border cursor-pointer text-white rounded-md" @click="addBoardEm">Save Board</NuxtLink>
             </div>
         </div>
     </div>
@@ -48,7 +48,18 @@ input,textarea,select{
 }
 </style>
 <script setup>
-const emit = defineEmits(['toggleForm']);
+const emit = defineEmits(['toggleForm','addBoard']);
 const props = defineProps(['showForm']);
-console.log("Inside comp",props.showForm)
+// console.log("Inside comp",props.showForm)
+const bDesc = ref('');
+const boName = ref('');
+const addBoardEm = () => {
+    if(bDesc.value && boName.value){
+        emit('addBoard', {"desc" : bDesc.value, "name" : boName.value})
+        emit('toggleForm')
+        bDesc.value = ''
+        boName.value = ''
+    }
+}
+
 </script>
