@@ -11,7 +11,7 @@
 
         </div>
         <div class="flex border-t">
-            <NuxtLink class="m-3 px-3 py-2 bg-gray-400 rounded-md cursor-pointer text-white hover:bg-gray-500 hover:text-white" to="/boards/1">View</NuxtLink>
+            <NuxtLink class="m-3 px-3 py-2 bg-gray-400 rounded-md cursor-pointer text-white hover:bg-gray-500 hover:text-white" :to="`/boards/${board.id}`">View</NuxtLink>
             <NuxtLink class="m-3 px-3 py-2 bg-red-500 rounded-md cursor-pointer text-white hover:bg-red-600 hover:text-white">Archive</NuxtLink>
         </div>
         </div>

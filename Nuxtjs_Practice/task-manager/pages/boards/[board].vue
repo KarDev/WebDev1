@@ -82,6 +82,7 @@ const addList = (data) => {
         lists.value.push({id : countListId++,listName: lName, Ilist: []})
 }
 
+const route = useRoute()
 
 
 </script>
