@@ -4,6 +4,7 @@ import { DataSource } from "typeorm"
 import { Entity, Column, PrimaryGeneratedColumn } from "typeorm"
 import { Client } from "./entities/Client"
 import { Banker } from "./entities/Banker"
+import { Transaction } from "./entities/Transaction"
 
 @Entity()
 export class Photo {
@@ -35,7 +36,7 @@ const AppDataSource = new DataSource({
     username: "postgres",
     password: "password",
     database: "photo",
-    entities: [Photo, Client, Banker],
+    entities: [Photo, Client, Banker, Transaction],
     synchronize: true,
     logging: false,
 })
